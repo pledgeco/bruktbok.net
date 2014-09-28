@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+
+* { margin: 0; padding: 0; }
+
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; /*definerer at fonten trebuchet skal gjelde alt tekst innenfor body*/
+}
+
+a {
+	color: #000; /*setter at linker skal være svarte*/
+	text-decoration: none;	/*setter at linker ikke skal ha noe dekorasjon*/
+}
+
+/* Navigasjon
+-------------------------------------------------------------------*/
+
+#header { /* Her definerer vi hvor menyen skal være */
+	font-size: 18px;
+	height: 100px;
+	background: #80af11;
+	line-height: 100px;
+}
+
+#header a { /*definerer at linker i header skal ha fargen hvit*/
+	color: #fff;
+}
+
+#header a#logo { /*definerer at logo skal ligge til venstre med font størrelsen 28pixler*/
+	display: block;
+	float: left;
+	font-size: 28px;
+}
+
+#header ul#nav { /*Setter at menyen skal være til høyre i header*/
+	float: right;
+}
+
+#header ul#nav li { /*Setter at liste elementet ikke skal ha noen stil på seg. Setter også at det skal være 15 pixler mellom hver lenke i meny*/
+	list-style-type: none;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+#eyeCatcher { /*bakgrunnsfarge skal være svart, bilde sentrert og definert høyde*/
+	color: #fff;
+	background: #242424 url("../images/eyeCatcher.png") top center no-repeat;
+	height: 366px;
+}
+
+#eyeCatcher .column { /*kolonne inne i eyecatcher*/
+	width: 206px;
+	margin-right: 166px;
+	float: left;
+	margin-top: 90px;	
+}
+
+#eyeCatcher .column img { /*bilde inne i kolonne i eyecatcher*/
+	margin-bottom: 12px;
+	height: 101px;
+}
+
+#eyeCatcher .column h3 { /*header inne i kolonne i eyecatcher*/
+	margin-bottom: 10px;
+	font-size: 18px;
+	
+	}
+
+#midLine /*definerer mid linja med bakgrunnsfarge og høyde*/
+{
+	background: #242424;
+	height: 98px;
+	
+}
+
+.wrapper {  /*definerer bredden på content*/
+width: 950px; margin: 0 auto; 
+
+}
+
+.wrapper2 { /*definerer bredde på innhold i content*/
+width: 700px; margin: 0 auto; float: left;
+
+}
+
+p.text{ /*definerer farge, linje høyde og font størrelse på p text*/
+	color: white;
+	line-height: 100px;
+	font-size: 18px;
+	}
+	
+#midButton { /*setter registeringsknapp på riktig sted*/
+	background: url("../images/midButton.png") no-repeat;
+	width: 210px;
+	height: 40px;
+	float: right;
+	margin-top: 28px;
+}
+
+#midButton:hover { /*setter hover på registreringsknapp*/
+	background-image: url("../images/midButton_hover.png");
+}
+
+#recycle { /*definerer hvor recycle icon skal stå*/
+	background: url("../images/recycle.png") no-repeat;
+	height: 128px;
+	width: 100px;
+	float: right;
+	padding-right: 50px;
+	margin-top: 20px;
+	margin-right: 20px;
+	
+	
+	
+	}	
+p.mainText { /*definerer hovedtekst*/
+	color: #3b3737;
+	font-size: 14;
+	margin-top: 18px;
+	}
+	
+p.mainHeader { /*definerer tittel på hovedtekst*/
+	font-size: 19px;
+	color: #3b3737;
+	margin-top: 20px;
+	
+	}
+	
+#footer { /*definerer hvor footer skal stå*/
+	font-size: 12px;
+	margin: 0 auto;
+	width: 950px;
+	clear: both;
+	color: #938f8f;
+	padding-top: 100px;
+	text-align: center;
+	
+	
+	
+	}
+	
+#footer a { /*definerer farge på lenker i footer*/
+	color: #938f8f;
+	}

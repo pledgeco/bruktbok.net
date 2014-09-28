@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+* { margin: 0; padding: 0; }
+
+body { /*alt som er definert innenfor body gjelder hele dokumentet*/
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; /*setter at hele dokumentet skal bruke fonten trebuchet*/
+	color: #FFF; /*setter at all tekst skal være hvit*/
+	background-color: #242424; /*setter bakgrunnsfarge for dokumentet*/
+}
+
+a {
+	color: #000; 
+	text-decoration: none;	/*setter at det ikke skal være noe dekorasjon på lenker*/
+}
+
+/* Navigasjon
+-------------------------------------------------------------------*/
+
+#header { /* Her definerer vi hvor menyen skal være */
+	font-size: 18px;
+	height: 100px;
+	background: #80af11;
+	line-height: 100px;
+}
+
+#header a { /*definerer at linker skal være hvite */
+	color: #fff;
+}
+
+#header a#logo { /*definerer at logo skal være til venstre og ha størrelse 28 i font*/
+	display: block;
+	float: left;
+	font-size: 28px;
+}
+
+#header ul#nav { /*definerer at menyen skal flyte til høyre*/
+	float: right;
+}
+
+#header ul#nav li { /*definerer at liste ikke skal ha noen dekorasjon, at det skal være 15 pixler mellom hver link i menyen */
+	list-style-type: none;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.wrapper {  /*setter at bredden skal være 950px uten margin*/
+width: 950px; margin: 0 auto; 
+
+}
+
+.wrapper2 { /*setter at wrapper2 skal ha bredd på 700pixler og flyte til venstre*/
+width: 559px; margin: 0 auto; float: left;
+
+}
+
+#minside{ /*setter at tekst headeren skal være 20 pixler fra toppen, størrelse font 20px, og at det skal være 10 pixler ned til neste element*/
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 20px;
+	}
+
+#right-mybooks{ /*definerer at oversikten over bøker skal være høyre*/
+background-image: url("../images/right-my.png");
+float: right;
+width: 310px;
+height: 405px;
+
+}
+
+#button-search{ /*Knapp for søking med størrelse for bilde og at den skal flyte til høyre*/
+background-image: url("../images/button-search.png");
+width: 244px;
+height: 76px;
+float:right;
+}
+
+#button-search:hover{ /*setter hover over knappen "search"*/
+background-image: url("../images/button-search_hover.png");
+
+}
+
+#button-sell{ /*Knapp for å selge bøker, størrelse på knappen og at den skal flyte til venstre*/
+background-image: url("../images/button-sell.png");
+width: 245px;
+height: 76px;
+float:left;
+
+}
+
+#button-sell:hover{ /*setter hover over knappen "sell"*/
+background-image: url("../images/button-sell_hover.png");
+}
+
