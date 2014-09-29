@@ -10,7 +10,7 @@
 <body>
     <div id="header"> <!--her er header definert-->
     	<div class="wrapper"> <!--er en klasse som definerer en bredde på midtseksjonen vår-->
-            <a id="logo" href="/">Bruktbok.no</a>
+            <a id="logo" href="/">Bruktbok.net</a>
 		<ul id="nav"><!--meny-->
                 <li><a href="index.php">Hjem</a></li>
                 <li><a href="register.php">Registrer deg</a></li>
