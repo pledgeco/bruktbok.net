@@ -17,11 +17,11 @@
                 <li><a href="contact.php">Kontakt oss</a></li>
 		<li><a href="login.php">Logg inn</a></li>
 		</ul>
-           </div> </div>
-       
+            </div>
+       </div>
        
     <div id="eyeCatcher">
-    	
+    	<div class="wrapper">
             <div class="column"> <!--definerer klassen kolonnen-->
 		<a href="/register.php" style="color:white;"><img src="images/form.png" /><br />
 		<h3>1. Registrer deg</h3></a>
