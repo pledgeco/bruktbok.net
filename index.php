@@ -1,3 +1,7 @@
+<?php
+include_once 'includes/psl-config.php';   // As functions.php is not included
+$mysqli = new mysqli(HOST, USER, PASSWORD, DATABASE);
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
@@ -11,12 +15,7 @@
     <div id="header"> <!--her er header definert-->
     	<div class="wrapper"> <!--er en klasse som definerer en bredde på midtseksjonen vår-->
             <a id="logo" href="/">Bruktbok.net</a>
-		<ul id="nav"><!--meny-->
-                <li><a href="index.php">Hjem</a></li>
-                <li><a href="register.php">Registrer deg</a></li>
-                <li><a href="contact.php">Kontakt oss</a></li>
-		<li><a href="login.php">Logg inn</a></li>
-		</ul>
+		<?php include_once 'includes/menu.php'; ?>
             </div>
        </div>
        
