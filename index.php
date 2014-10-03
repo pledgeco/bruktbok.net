@@ -1,3 +1,4 @@
+<?php include_once 'languages/no.php'; ?>
 <?php
 include_once 'includes/psl-config.php';   // As functions.php is not included
 $mysqli = new mysqli(HOST, USER, PASSWORD, DATABASE);
@@ -14,7 +15,7 @@ $mysqli = new mysqli(HOST, USER, PASSWORD, DATABASE);
 <body>
     <div id="header"> <!--her er header definert-->
     	<div class="wrapper"> <!--er en klasse som definerer en bredde på midtseksjonen vår-->
-            <a id="logo" href="/">Bruktbok.net</a>
+            <a id="logo" href="/"><?php echo lang('title'); ?></a>
 		<?php include_once 'includes/menu.php'; ?>
             </div>
        </div>
