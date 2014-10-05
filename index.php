@@ -15,11 +15,11 @@ $mysqli = new mysqli(HOST, USER, PASSWORD, DATABASE);
 <body>
     <div id="header"> <!--her er header definert-->
     	<div class="wrapper"> <!--er en klasse som definerer en bredde på midtseksjonen vår-->
+		
             <a id="logo" href="/"><?php echo lang('title'); ?></a>
 		<?php include_once 'includes/menu.php'; ?>
             </div>
        </div>
-       
     <div id="eyeCatcher">
     	<div class="wrapper">
             <div class="column"> <!--definerer klassen kolonnen-->
@@ -45,29 +45,29 @@ $mysqli = new mysqli(HOST, USER, PASSWORD, DATABASE);
             </div>
         </div>
     </div>
-    
-    <div id="midLine">
-	<div class="wrapper">
-			<a href="register.php" id="midButton"></a>
-			<p class="text">Selg eller kjøp studiebøker via Bruktbok.no med et par enkle tastetrykk.</p>            
-		</div>
-	</div>
 	
-	<div class="wrapper"><!--definerer bredden på nytt-->
-		<p class="mainHeader">Hva er Bruktbok?</p>
-			<div id="recycle"></div>
-				<div class="wrapper2"> <!--definerer bredde for tekst inne i første wrapper-->
-					<p class="mainText">Vi vet alle at millioner av trær blir hogget ned hvert år for å lage papir for bøker,
-					magasiner og mye mer. Ettersom etterspørselen etter bøker er stor, så er antallet trær som blir hugget ned tilsvarende.
-					Hvordan kan vi stoppe denne onde sirkelen? Det er umulig å slutte å lese og skrive. Dette er en av grunnene til at vi i 
-					Bruktbok.net ble motiverte til å lage en applikasjon som kan gjøre det enkelt å bruke bøker om igjen. På våre sider skal du kunne legge ut dine brukte bøker,
-					og ikke minst finne bøker du vil kjøpe. Du sparer miljøet, og du sparer også penger.</p>
-				</div>
-			</div>
+	<div id="midLine">
+	<div class="wrapper">
+
+			<a href="register.php" id="midButton"></a>
+			<p class="text">Selg eller kjøp studiebøker via Bruktbok.net med et par enkle tastetrykk.</p> 
+			
+			
+    </div>	
+		</div>
 		
-      
-	<div id="footer" style="margin-top:220px; margin-bottom:30px;"><i>Alle rettigheter reservert © 2012 |
+	
+	<br /><br />
+
+		<div id="footer" style="margin-bottom:30px;"><i>Alle rettigheter reservert © 2012 |
 	<a href="contact.php">Kontakt oss</a> - <a href="terms.php">Terms of Use </a> - <a href="privacy.php">Privacy</a></i>
     </div>
-</body>
+	
+  
+      
+
+	
+
+				
+			
 </html>

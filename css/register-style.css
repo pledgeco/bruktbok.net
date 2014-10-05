@@ -45,7 +45,9 @@ a {
 }
 
 .wrapper {  /*setter at bredden skal være 950px uten margin*/
-width: 967px; margin: 0 auto; 
+margin-left: auto;
+  margin-right: auto;
+  width: 950px;
 
 }
 
@@ -78,7 +80,7 @@ p.text{ /*definerer farge, linje høyde og font størrelse på p text*/
 	
 .round-box {
 color: #000;
-background-color: #4f5051;
+background-color: #484848;
 padding: 15px;
 border-radius:5px ;
 margin-top:-5px;
@@ -129,7 +131,7 @@ input[type="password"] {
 }
 
 input[type="button"] {
-    border: 1px solid #242424;
+    border: 1px solid #80af11;
     color: #FFF;
     height: 35px;
     margin-bottom: 16px;
@@ -147,12 +149,12 @@ input[type="button"] {
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 	margin-top:11px;
-	background-color:#272822;
+	background-color:#80af11;
 	margin-bottom:-2px;
 }
 
 input[type="button"]:hover {
-    border: 1px solid #80af11;
+    border: 1px solid #9ed814;
     color: #FFF;
     height: 35px;
     margin-bottom: 16px;
@@ -170,7 +172,7 @@ input[type="button"]:hover {
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 	margin-top:11px;
-	background-color:#80af11;
+	background-color:#9ed814;
 	margin-bottom:-2px;
 }
 
@@ -180,7 +182,7 @@ input[type="button"]:hover {
   left:0;
   right:0;
   text-align: center;
-	color: #938f8f;
+	color: #FFF;
 
 
 
@@ -190,6 +192,6 @@ input[type="button"]:hover {
 	}
 	
 #footer a { /*definerer farge på lenker i footer*/
-	color: #938f8f;
+	color: #FFF;
 	}
 

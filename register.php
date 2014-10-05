@@ -24,7 +24,7 @@ include_once 'languages/no.php';
         <!-- Registration form to be output if the POST variables are not
         set or if the registration script caused an error. -->
 		
-		<div class="round-box" style="margin-top:15px;">
+		<div class="round-box" style="margin-top:20px;">
         <h2 style="margin-bottom:13px;">Registrer deg nå</h2>
         <?php
         if (!empty($error_msg)) {

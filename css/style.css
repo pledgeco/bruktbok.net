@@ -4,6 +4,7 @@
 * { margin: 0; padding: 0; }
 
 body {
+	background-color: #242424;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; /*definerer at fonten trebuchet skal gjelde alt tekst innenfor body*/
 }
 
@@ -69,17 +70,26 @@ a {
 #midLine /*definerer mid linja med bakgrunnsfarge og høyde*/
 {
 	background: #242424;
-	height: 98px;
-	
+	height: 95px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-color: #4f4e4e;
+	border-size:1px;
 }
 
 .wrapper {  /*definerer bredden på content*/
-width: 950px; margin: 0 auto; 
+margin-left: auto;
+  margin-right: auto;
+  width: 950px;
+
 
 }
 
-.wrapper2 { /*definerer bredde på innhold i content*/
-width: 700px; margin: 0 auto; float: left;
+.wrapper-news {  /*definerer bredden på content*/
+margin-left: auto;
+  margin-right: auto;
+  width: 850px;
+
 
 }
 
@@ -132,7 +142,7 @@ p.mainHeader { /*definerer tittel på hovedtekst*/
   left:0;
   right:0;
   text-align: center;
-	color: #938f8f;
+	color: #FFF;
 
 
 
@@ -142,5 +152,14 @@ p.mainHeader { /*definerer tittel på hovedtekst*/
 	}
 	
 #footer a { /*definerer farge på lenker i footer*/
-	color: #938f8f;
+	color: #FFF;
 	}
+
+	.round-box {
+color: #000;
+background-color: #4f5051;
+padding: 15px;
+border-radius:5px ;
+margin-top:-5px;
+color:white;
+}	
