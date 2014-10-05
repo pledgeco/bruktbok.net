@@ -8,7 +8,7 @@ $mysqli = new mysqli(HOST, USER, PASSWORD, DATABASE);
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Bruktbok.no</title>
+	<title><?php echo lang('title'); ?></title>
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 
@@ -64,9 +64,9 @@ $mysqli = new mysqli(HOST, USER, PASSWORD, DATABASE);
 					og ikke minst finne bøker du vil kjøpe. Du sparer miljøet, og du sparer også penger.</p>
 				</div>
 			</div>
-		</div>
+		
       
-	<div id="footer"><i>Alle rettigheter reservert © 2012 |
+	<div id="footer" style="margin-top:220px; margin-bottom:30px;"><i>Alle rettigheter reservert © 2012 |
 	<a href="contact.php">Kontakt oss</a> - <a href="terms.php">Terms of Use </a> - <a href="privacy.php">Privacy</a></i>
     </div>
 </body>

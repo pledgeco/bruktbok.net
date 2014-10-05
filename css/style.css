@@ -16,7 +16,7 @@ a {
 -------------------------------------------------------------------*/
 
 #header { /* Her definerer vi hvor menyen skal være */
-	font-size: 18px;
+	font-size: 16px;
 	height: 100px;
 	background: #80af11;
 	line-height: 100px;
@@ -29,7 +29,7 @@ a {
 #header a#logo { /*definerer at logo skal ligge til venstre med font størrelsen 28pixler*/
 	display: block;
 	float: left;
-	font-size: 28px;
+	font-size: 26px;
 }
 
 #header ul#nav { /*Setter at menyen skal være til høyre i header*/
@@ -128,12 +128,14 @@ p.mainHeader { /*definerer tittel på hovedtekst*/
 	
 #footer { /*definerer hvor footer skal stå*/
 	font-size: 12px;
-	margin: 0 auto;
-	width: 950px;
-	clear: both;
+  position:absolute;
+  left:0;
+  right:0;
+  text-align: center;
 	color: #938f8f;
-	padding-top: 100px;
-	text-align: center;
+
+
+
 	
 	
 	

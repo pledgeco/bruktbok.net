@@ -1,59 +1,67 @@
 <?php
 include_once 'includes/register.inc.php';
 include_once 'includes/functions.php';
+include_once 'languages/no.php';
 ?>
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Secure Login: Registration Form</title>
+        <title><?php echo lang('title'); ?></title>
         <script type="text/JavaScript" src="js/sha512.js"></script> 
         <script type="text/JavaScript" src="js/forms.js"></script>
         <link rel="stylesheet" href="styles/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/register-style.css" />
     </head>
     <body>
+	    <div id="header">
+		<div class="wrapper"><a id="logo" href="/"><?php echo lang('title'); ?></a>
+			<?php include_once 'includes/menu.php'; ?></div>
+		</div>
+      
+	  <div class="wrapper">
+	 
         <!-- Registration form to be output if the POST variables are not
         set or if the registration script caused an error. -->
-        <h1>Register with us</h1>
+		
+		<div class="round-box" style="margin-top:15px;">
+        <h2 style="margin-bottom:13px;">Registrer deg nå</h2>
         <?php
         if (!empty($error_msg)) {
             echo $error_msg;
         }
         ?>
-        <ul>
-            <li>Usernames may contain only digits, upper and lower case letters and underscores</li>
-            <li>Emails must have a valid email format</li>
-            <li>Passwords must be at least 6 characters long</li>
-            <li>Passwords must contain
-                <ul>
-                    <li>At least one upper case letter (A..Z)</li>
-                    <li>At least one lower case letter (a..z)</li>
-                    <li>At least one number (0..9)</li>
-                </ul>
-            </li>
-            <li>Your password and confirmation must match exactly</li>
-        </ul>
+       
         <form action="<?php echo esc_url($_SERVER['PHP_SELF']); ?>" 
                 method="post" 
                 name="registration_form">
-            Username: <input type='text' 
+            <p style="margin-bottom:3px;">Brukernavn</p> <div class="wrapper-inputs"><input type='text' placeholder="Brukernavn" class="focus"
                 name='username' 
-                id='username' /><br>
-            Email: <input type="text" name="email" id="email" /><br>
-            Password: <input type="password"
+                id='username' /><i style="color:#aeaead; font-size: 14px;"> * Skriv inn ønsket brukernavn</i></div>
+            <p style="margin-bottom:3px;">E-post </p> <div class="wrapper-inputs"><input type="text" name="email" id="email" placeholder="E-post" class="focus"/><i style="color:#aeaead; font-size: 14px;"> * Bruk en ekte e-post, brukes når du skal logge inn.</i></div>
+            Passord <div class="wrapper-inputs"><input type="password" placeholder="Passord" class="focus"
                              name="password" 
-                             id="password"/><br>
-            Confirm password: <input type="password" 
+                             id="password" /><i style="color:#aeaead; font-size: 14px;"> 
+							 * Passordet må inneholde både store og små bokstaver.</i></div>
+            <p style="margin-bottom:3px;">Bekreft passord </p> <div class="wrapper-inputs"><input type="password" placeholder="Bekreft passord" class="focus"
                                      name="confirmpwd" 
-                                     id="confirmpwd" /><br>
+                                     id="confirmpwd" /><i style="color:#aeaead; font-size: 14px;"> 
+									 * Bekreft passordet ditt.</i></div>
             <input type="button" 
-                   value="Register" 
+                   value="Registrer" 
                    onclick="return regformhash(this.form,
                                    this.form.username,
                                    this.form.email,
                                    this.form.password,
                                    this.form.confirmpwd);" /> 
         </form>
-        <p>Return to the <a href="index.php">login page</a>.</p>
+		
+		</div>
+		</div><br /><br />
+       <div id="footer"><i>Alle rettigheter reservert © 2012 |
+	<a href="contact.php">Kontakt oss</a> - <a href="terms.php">Terms of Use </a> - <a href="privacy.php">Privacy</a></i>
+    </div>
+		
+		
     </body>
 </html>

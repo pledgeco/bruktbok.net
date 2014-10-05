@@ -18,7 +18,7 @@ a {
 -------------------------------------------------------------------*/
 
 #header { /* Her definerer vi hvor menyen skal være */
-	font-size: 18px;
+	font-size: 16px;
 	height: 100px;
 	background: #80af11;
 	line-height: 100px;
@@ -31,7 +31,7 @@ a {
 #header a#logo { /*definerer at logo skal være til venstre og ha størrelse 28 i font*/
 	display: block;
 	float: left;
-	font-size: 28px;
+	font-size: 26px;
 }
 
 #header ul#nav { /*definerer at menyen skal flyte til høyre*/
@@ -45,13 +45,151 @@ a {
 }
 
 .wrapper {  /*setter at bredden skal være 950px uten margin*/
-width: 950px; margin: 0 auto; 
+width: 967px; margin: 0 auto; 
 
 }
 
-#register-text { /*setter at tekst headeren skal være 20 pixler fra toppen, størrelse font 20px, og at det skal være 10 pixler ned til neste element*/
-margin-top:20px;
-font-size:20px;
-margin-bottom: 10px;
+.wrapper-inputs {  /*setter at bredden skal være 950px uten margin*/
+width: 936px; margin: 0 auto; 
 
 }
+
+
+#midButton { /*setter registeringsknapp på riktig sted*/
+	background: url("../images/midButton.png") no-repeat;
+	width: 210px;
+	height: 40px;
+	float: right;
+	margin-top: 28px;
+}
+
+#midLine /*definerer mid linja med bakgrunnsfarge og høyde*/
+{
+	background: #000;
+	height: 98px;
+	
+}
+
+p.text{ /*definerer farge, linje høyde og font størrelse på p text*/
+	color: white;
+	line-height: 100px;
+	font-size: 16px;
+	}
+	
+.round-box {
+color: #000;
+background-color: #4f5051;
+padding: 15px;
+border-radius:5px ;
+margin-top:-5px;
+color:white;
+}	
+
+input[type="text"], .focus input[type="email"], .focus textarea, .focus input[type="password"] {
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 35%;
+    font-size: 12px;
+    line-height:15px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;    
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.focus textarea{
+    padding: 5px 3px 3px 5px;
+}
+
+input[type="password"] {
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 35%;
+    font-size: 12px;
+    line-height:15px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;    
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+input[type="button"] {
+    border: 1px solid #242424;
+    color: #FFF;
+    height: 35px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 15%;
+    font-size: 12px;
+    line-height:15px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;    
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	margin-top:11px;
+	background-color:#272822;
+	margin-bottom:-2px;
+}
+
+input[type="button"]:hover {
+    border: 1px solid #80af11;
+    color: #FFF;
+    height: 35px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 15%;
+    font-size: 12px;
+    line-height:15px;
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;    
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	margin-top:11px;
+	background-color:#80af11;
+	margin-bottom:-2px;
+}
+
+#footer { /*definerer hvor footer skal stå*/
+	font-size: 12px;
+  position:absolute;
+  left:0;
+  right:0;
+  text-align: center;
+	color: #938f8f;
+
+
+
+	
+	
+	
+	}
+	
+#footer a { /*definerer farge på lenker i footer*/
+	color: #938f8f;
+	}
+
