@@ -81,7 +81,7 @@ p.text{ /*definerer farge, linje høyde og font størrelse på p text*/
 .round-box {
 color: #000;
 background-color: #484848;
-padding: 15px;
+padding: 25px;
 border-radius:5px ;
 margin-top:-5px;
 color:white;

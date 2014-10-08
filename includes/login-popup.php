@@ -110,11 +110,11 @@ input[type="button"]:hover {
         }
         ?> 
 		 <form action="includes/process_login.php" method="post" name="login_form">                      
-            E-post <br /><input type="text" placeholder="E-post" name="email" size="35"/> 
+            E-post <br /><input type="text" placeholder="E-post" name="email" size="35" style="width:55%"/> 
         
             <br />Passord <br /><input type="password" placeholder="Passord"
                              name="password" 
-                             id="password"/><i style="color:#aeaead; font-size: 14px;"> </i><br />
+                             id="password" style="width:55%"/><i style="color:#aeaead; font-size: 14px;"> </i><br />
            <input type="button" 
                    value="Login" 
                    onclick="formhash(this.form, this.form.password);" /> 
