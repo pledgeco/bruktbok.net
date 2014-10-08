@@ -56,6 +56,12 @@ include_once 'includes/login-popup.php';
 
 		
 				<label for="melding"><b>Melding</b></label><br />
+				<p style="float:right; width:494px;"><b>Kontaktinformasjon</b><br />
+Universitetet i Agder<br />
+Tlf: +  47 98 63 93 73<br />
+Support: + 47 98 63 93 73<br />
+Epost: support@bruktbok.net<br />
+Adresse: Gimlemoen 25, 4630 Kristiansand S
 					<div class="wrapper-inputs"><textarea  name="melding" class="focus" placeholder="Skriv meldingen her.." maxlength="1000" cols="25" rows="6" style="   border: 1px solid #DADADA;
     color: #888;
     height: 100px;
