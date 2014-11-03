@@ -32,33 +32,15 @@ $_CONFIG['bruktbok']['server_ip'] = 'localhost'; //IP of VPS/DEDI/etc
 
 $_CONFIG['bruktbok']['url'] = 'http://bruktbok.net'; //Does not end with a "/"
 
-$_CONFIG['bruktbok']['name'] = 'Bruktbok'; // Hotel's name
+$_CONFIG['bruktbok']['name'] = 'Bruktbok'; // website name
 
-$_CONFIG['bruktbok']['desc'] = ''; //Hotel's description 
+$_CONFIG['bruktbok']['desc'] = ''; //
 
 $_CONFIG['bruktbok']['email'] = 'help@myhotel.net'; //Where the help queries from users are emailed to.@Priv skin
 
 $_CONFIG['bruktbok']['in_maint'] = False; //False if hotel is NOT in maintenance. True if hotel IS in maintenance
 
-$_CONFIG['bruktbok']['motto'] = 'Välkommen till ' . $_CONFIG['bruktbok']['name']; //Default motto users will register with.
 
-$_CONFIG['bruktbok']['credits'] = 50000; //Default number of credits users will register with.
-
-$_CONFIG['bruktbok']['pixels'] = 20000; //Default number of pixels users will register with.
-
-$_CONFIG['bruktbok']['figure'] = 'hd-180-1.ch-210-66.lg-270-82.sh-290-91.hr-100'; //Default figure users will register with.
-
-$_CONFIG['bruktbok']['web_build'] = '63_1dc60c6d6ea6e089c6893ab4e0541ee0/1760'; //Web_Build
-
-$_CONFIG['bruktbok']['external_vars'] = 'http://habswe.com/swf/external_variables.txt'; //URL to your external vars
-
-$_CONFIG['bruktbok']['external_texts'] = 'http://habswe.com/swf/external_flash_texts.txt'; //URL to your external texts
-
-$_CONFIG['bruktbok']['product_data'] = 'http://habswe.com/client/gamedata/productdata.txt'; //URL to your productdata
-
-$_CONFIG['bruktbok']['furni_data'] = 'http://habswe.com/client/gamedata/furnidata.txt'; //URL to your furnidata
-
-$_CONFIG['bruktbok']['swf_folder'] = 'http://habswe.com/tswf'; //URL to your SWF folder(does not end with a '/')
 
 /*
 *
@@ -71,32 +53,6 @@ $_CONFIG['bruktbok']['swf_folder'] = 'http://habswe.com/tswf'; //URL to your SWF
 $_CONFIG['template']['style'] = 'Bruktbok'; 
 
 /*
-*
-*	Other topsites.. thing
-*
-*/
 
-$_CONFIG['thehabbos']['username'] = 'habinme';
-$_CONFIG['retro_top']['user'] = 'Kryptos'; 
-
-/*
-*
-*	Recaptcha management - Fill the information below if you have one, else leave it like that and don't worry, be happy.
-*
-*/
-
-$_CONFIG['recaptcha']['priv_key'] = '6LcZ58USAAAAABSV5px9XZlzvIPaBOGA6rQP2G43';
-$_CONFIG['recaptcha']['pub_key'] = '6LcZ58USAAAAAAQ6kquItHl4JuTBWs-5cSKzh6DD';
-
-
-/*
-*
-*	Social Networking stuff
-*
-*/
-
-$_CONFIG['social']['twitter'] = 'TwitterAccount'; //Hotel's Twitter account
-
-$_CONFIG['social']['facebook'] = 'FacebookAccount'; //Hotel's Facebook account
 
 ?>
