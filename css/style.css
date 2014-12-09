@@ -6,108 +6,112 @@
 body {
 	background-color: #242424;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; /*definerer at fonten trebuchet skal gjelde alt tekst innenfor body*/
-	}
+}
 
-a {/*Defines the links*/
-	color: #000; 
-	text-decoration: none;	
-	}
+a {
+	color: #000; /*setter at linker skal være svarte*/
+	text-decoration: none;	/*setter at linker ikke skal ha noe dekorasjon*/
+}
 
 /* Navigasjon
 -------------------------------------------------------------------*/
-/* The header is the 1st section of the website*/
-#header { /* Defines the header aka menu banner */
+
+#header { /* Her definerer vi hvor menyen skal være */
 	font-size: 16px;
 	height: 100px;
 	background: #80af11;
 	line-height: 100px;
-	}
+}
 
-#header a { /* Defines the links in the header*/
+#header a { /*definerer at linker i header skal ha fargen hvit*/
 	color: #fff;
-	}
+}
 
-#header a#logo { /*Defines the logo size and position*/
+#header a#logo { /*definerer at logo skal ligge til venstre med font størrelsen 28pixler*/
 	display: block;
 	float: left;
 	font-size: 26px;
-	}
+}
 
-#header ul#nav { /* Defines position of header menu*/
+#header ul#nav { /*Setter at menyen skal være til høyre i header*/
 	float: right;
-	}
+}
 
-#header ul#nav li { /* Defines elements in the menu list*/ 
+#header ul#nav li { /*Setter at liste elementet ikke skal ha noen stil på seg. Setter også at det skal være 15 pixler mellom hver lenke i meny*/
 	list-style-type: none;
 	display: inline-block;
 	margin-left: 15px;
-	}
+}
 
-/*The eyeCatcher and it's .column  make up the 2nd section of the page*/	
-#eyeCatcher { 
+#eyeCatcher { /*bakgrunnsfarge skal være svart, bilde sentrert og definert høyde*/
 	color: #fff;
 	background: #242424 url("../images/eyeCatcher.png") top center no-repeat;
 	height: 366px;
-	}
+}
 
-#eyeCatcher .column { /*The columns are used to divide the eyeCatcher*/
+#eyeCatcher .column { /*kolonne inne i eyecatcher*/
 	width: 206px;
 	margin-right: 166px;
 	float: left;
 	margin-top: 90px;	
-	}
+}
 
-#eyeCatcher .column img { /*Manages the Images in the eyeCatcher columns*/
+#eyeCatcher .column img { /*bilde inne i kolonne i eyecatcher*/
 	margin-bottom: 12px;
 	height: 101px;
-	}
+}
 
-#eyeCatcher .column h3 { /*Manages the font heading in the eyeCatcher columns*/
+#eyeCatcher .column h3 { /*header inne i kolonne i eyecatcher*/
 	margin-bottom: 10px;
 	font-size: 16px;
+	
 	}
 
-/*The midLine is the 3rd section on the page. Contains link to registration. */
-#midLine { /* Defines the midline*/
+#midLine /*definerer mid linja med bakgrunnsfarge og høyde*/
+{
 	background: #1f1f1f;
 	height: 95px;
 	border-top-style: solid;
 	border-bottom-style: solid;
 	border-color: #4f4e4e;
 	border-size:1px;
-	}
+}
 
-.wrapper {  /*Defines contents width*/
-	margin-left: auto;
-	margin-right: auto;
-	width: 950px;
-	}
+.wrapper {  /*definerer bredden på content*/
+margin-left: auto;
+  margin-right: auto;
+  width: 966px;
 
-.wrapper-news {  /*Defines contents width*/
-	margin-left: auto;
-	margin-right: auto;
-	width: 850px;
-	}
 
-p.text{ /*Font definition*/
+}
+
+.wrapper-news {  /*definerer bredden på content*/
+margin-left: auto;
+  margin-right: auto;
+  width: 850px;
+
+
+}
+
+p.text{ /*definerer farge, linje høyde og font størrelse på p text*/
 	color: white;
 	line-height: 100px;
 	font-size: 16px;
 	}
 	
-#midButton { /*Registration button definition*/
+#midButton { /*setter registeringsknapp på riktig sted*/
 	background: url("../images/midButton.png") no-repeat;
 	width: 210px;
 	height: 40px;
 	float: right;
 	margin-top: 28px;
-	}
+}
 
-#midButton:hover { /*Registration button upon cursor hover*/
+#midButton:hover { /*setter hover på registreringsknapp*/
 	background-image: url("../images/midButton_hover.png");
-	}
+}
 
-#recycle { /*Recycle Icon*/
+#recycle { /*definerer hvor recycle icon skal stå*/
 	background: url("../images/recycle.png") no-repeat;
 	height: 128px;
 	width: 100px;
@@ -115,88 +119,96 @@ p.text{ /*Font definition*/
 	padding-right: 50px;
 	margin-top: 20px;
 	margin-right: 20px;
-	}	
 	
-p.mainText { /* Defines main text font */
+	
+	
+	}	
+p.mainText { /*definerer hovedtekst*/
 	color: #3b3737;
 	font-size: 14;
 	margin-top: 18px;
 	}
 	
-p.mainHeader { /* Defines tittle font for main text */
+p.mainHeader { /*definerer tittel på hovedtekst*/
 	font-size: 19px;
 	color: #3b3737;
 	margin-top: 20px;
+	
 	}
-
-/* The 4th section of the page*/
-#footer { /* Defines the footer section*/
+	
+#footer { /*definerer hvor footer skal stå*/
 	font-size: 12px;
-	position:absolute;
-	left:0;
-	right:0;
-	text-align: center;
+  position:absolute;
+  left:0;
+  right:0;
+  text-align: center;
 	color: #FFF;
+
+
+
+	
+	
+	
 	}
 	
-#footer a { /*Defines the links in the footer*/
+#footer a { /*definerer farge på lenker i footer*/
 	color: #FFF;
 	}
 
-.round-box {
-	color: #000;
-	background-color: #4f5051;
-	padding: 15px;
-	border-radius:5px ;
-	margin-top:-5px;
-	color:white;
-	}	
+	.round-box {
+color: #000;
+background-color: #4f5051;
+padding: 15px;
+border-radius:5px ;
+margin-top:-5px;
+color:white;
+}	
 
-.reveal-modal-bg { 
-	position: fixed; 
-	height: 100%;
-	width: 100%;
-	background: #000;
-	background: rgba(0,0,0,.8);
-	z-index: 100;
-	display: none;
-	top: 0;
-	left: 0; 
-	}
+	.reveal-modal-bg { 
+		position: fixed; 
+		height: 100%;
+		width: 100%;
+		background: #000;
+		background: rgba(0,0,0,.8);
+		z-index: 100;
+		display: none;
+		top: 0;
+		left: 0; 
+		}
 	
-.reveal-modal {
-	visibility: hidden;
-	top: 100px; 
-	left: 50%;
-	margin-left: -200px;
-	width: 350px;
-	background: #eee url(modal-gloss.png) no-repeat -200px -80px;
-	position: absolute;
-	z-index: 101;
-	padding: 30px 40px 34px;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
-	-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
-	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
-	-box-shadow: 0 0 10px rgba(0,0,0,.4);
-	}
+	.reveal-modal {
+		visibility: hidden;
+		top: 100px; 
+		left: 50%;
+		margin-left: -200px;
+		width: 350px;
+		background: #eee url(modal-gloss.png) no-repeat -200px -80px;
+		position: absolute;
+		z-index: 101;
+		padding: 30px 40px 34px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		}
 		
-.reveal-modal.small 		{ width: 200px; margin-left: -140px;}
-.reveal-modal.medium 		{ width: 400px; margin-left: -240px;}
-.reveal-modal.large 		{ width: 600px; margin-left: -340px;}
-.reveal-modal.xlarge 		{ width: 800px; margin-left: -440px;}
+	.reveal-modal.small 		{ width: 200px; margin-left: -140px;}
+	.reveal-modal.medium 		{ width: 400px; margin-left: -240px;}
+	.reveal-modal.large 		{ width: 600px; margin-left: -340px;}
+	.reveal-modal.xlarge 		{ width: 800px; margin-left: -440px;}
 	
-.reveal-modal .close-reveal-modal {
-	font-size: 22px;
-	line-height: .5;
-	position: absolute;
-	top: 8px;
-	right: 11px;
-	color: #aaa;
-	text-shadow: 0 -1px 1px rbga(0,0,0,.6);
-	font-weight: bold;
-	cursor: pointer;
-	} 
+	.reveal-modal .close-reveal-modal {
+		font-size: 22px;
+		line-height: .5;
+		position: absolute;
+		top: 8px;
+		right: 11px;
+		color: #aaa;
+		text-shadow: 0 -1px 1px rbga(0,0,0,.6);
+		font-weight: bold;
+		cursor: pointer;
+		} 
 	
 		

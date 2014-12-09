@@ -1,10 +1,10 @@
-<?php include_once 'languages/no.php'; ?>
+<?php include_once 'languages/en.php'; ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>Bruktbok.no</title>
+	<title><?php echo lang('title'); ?></title>
 	<link rel="stylesheet" type="text/css" href="css/mypage-style.css" />
 </head>
 
@@ -20,13 +20,14 @@
 </div>
 
 	<div class="wrapper"><!--definerer bredden-->
-	<div class="round-box" style="width:340px; float:right; overflow:hidden; display:inline; margin-top:0px; font-size:14px;"><h2 style="margin-bottom:16px;">Din konto</h2>
+	<div class="round-box" style="width:340px; float:right; overflow:hidden; display:inline; margin-top:0px; font-size:14px;">
+	<h2 style="margin-bottom:16px;"><?php echo lang('your-acc'); ?></h2>
 	
-		Bruker-ID: {id} <br />
-	  Brukernavn: {username} <br />
-	  E-post: {email} <br />
-	  Passord: Kryptert <br /><br />
-	  <font style="color:#d6d6d6; font-size:14px; margin-top:30px;">Endre kontoinnstillinger »</font>
+	  <?php echo lang('userid'); ?>: {id} <br />
+	  <?php echo lang('me-username'); ?>: {username} <br />
+	  <?php echo lang('me-email'); ?>: {email} <br />
+	  <?php echo lang('me-password'); ?> <br /><br />
+	  <font style="color:#d6d6d6; font-size:14px; margin-top:30px;"><?php echo lang('me-accountsettings'); ?></font>
 	
 	</div>
 	
@@ -34,38 +35,38 @@
 	
 	<div class="round-box" style="margin-top:20px; margin-bottom:15px; width:500px;"><h2 style="margin-bottom:21px; font-size:21px;">
 	<?php echo lang('mypage'); ?></h2>
-	<a href="sell.php" id="button-sell"></a> <!--knapp for å selge bøker-->
-		<a href="search.php" id="button-search"></a> <!--knapp for å finne bøker-->
+	<a href="sell" id="button-sell"></a> <!--knapp for å selge bøker-->
+		<a href="search" id="button-search"></a> <!--knapp for å finne bøker-->
 	<br /> <br /><br /><br /><br>
 
-	<h4 style="margin-bottom:5px; font-size:18px;">Velkommen til ditt hjemområde!</h4> <!--Overskrift hjemområde-->
-		<p style="color:#d6d6d6;">Her kan du både selge og kjøpe andre sine bøker ved UIA i Grimstad og Kristiansand.</p> <!--definerer farge på teksten-->
+	<h4 style="margin-bottom:5px; font-size:18px;"><?php echo lang('me-homearea-title'); ?></h4> <!--Overskrift hjemområde-->
+		<p style="color:#d6d6d6;"><?php echo lang('me-homearea-desc'); ?></p> <!--definerer farge på teksten-->
 			<br />
 			
-	<h4 style="margin-bottom:5px; font-size:18px;">Legge ut en bok?</h4> <!--under-header-->
-		<p style="color:#d6d6d6;">Hvis du vil selge en eller flere bøker, så trykker du på "Legg ut en bok" og følger oppsettet for å legge ut din bok. Når du har gjort dette, så vil<!--definerer farge på teksten-->
-					  boken eller bøkene dine bli listet opp på høyre side. Her kan du også redigere og slette bøker du har lagt ut.</p> <br />
+	<h4 style="margin-bottom:5px; font-size:18px;"><?php echo lang('me-wanttosell'); ?></h4> <!--under-header-->
+		<p style="color:#d6d6d6;"><?php echo lang('me-wanttosell-desc'); ?></p> <br />
 
-	<h3 style="margin-bottom:5px; font-size:18px;">Finne en bok?</h3><!--under-header-->
-		<p style="color:#d6d6d6;">Om du er ute etter å finne en bok for ditt semester, så kan du trykke på "Finn en bok". Her vil det komme opp et søkefelt som du kan fylle inn dine kriterier. <!--definerer farge på teksten-->
-				          Om du finner den boken du er ute etter, så er det bare å kontakte eieren for å avtale pris.
+	<h3 style="margin-bottom:5px; font-size:18px;"><?php echo lang('me-find'); ?></h3><!--under-header-->
+		<p style="color:#d6d6d6;"><?php echo lang('me-find-desc'); ?>
 			</p>	
 	</div>
 	
-	<div class="round-box" style="margin-top:-316px; width:340px; float:right;"><h2 style="margin-bottom:16px; font-size:21px;">Mine bøker</h2>
-	<font style="font-size:14px;">Her er en oversikt over dine bøker. Trykk på dem for endre status eller endre bok/forfatter.</font><br /><br />
-	  <div class="round-box" style="width:320px; background-color:#7b7d7a; padding:10px; color:#f0eeee; font-size:14px; line-height: 90%; margin-bottom:14px;">
+	<div class="round-box" style="margin-top:-316px; width:340px; float:right; margin-bottom:20px;"><h2 style="margin-bottom:15px; font-size:21px;"><?php echo lang('me-mybooks'); ?></h2>
+	<font style="font-size:14px;"><?php echo lang('me-mybooks-desc'); ?></font><br /><br />
+	  <div class="round-box" style="width:320px; background-color:#4C5A65; padding:11px; color:#f0eeee; font-size:16px; line-height: 90%; margin-bottom:14px;">
 	
-	 <strong style="color:#242424;">Bok:</strong> Metode- og oppgaveskriving for studenter<br /><br /> <strong style="color:#242424;">Forfatter:</strong> Olav Dalland <br /><br />
+	 <h3 style="color:white; font-size:16px; margin-bottom:-9px;"><?php echo lang('me-booktitle'); ?></h3><br /> <text style="font-size:14px; color:#d6d6d6">Metode- og oppgaveskriving for studenter</text><br />
+	 <br /> <h3 style="color:white; font-size:16px; margin-bottom:-9px;"><?php echo lang('me-author'); ?></h3><br /><text style="font-size:14px; color:#d6d6d6;"> Olav Dalland</text><br /><br />
 	  
-	 <strong style="color:#242424;">Status:</strong> Ikke solgt<br />
+	 <h3 style="color:white; font-size:16px; margin-bottom:-9px;"><?php echo lang('me-status'); ?></h3><br /><text style="font-size:14px; color:#d6d6d6;"> Not sold</text><br />
 	 
 	</div>
-	<div class="round-box" style="width:320px; background-color:#7b7d7a; padding:10px; color:#f0eeee; font-size:14px; line-height: 90%; margin-bottom:14px;">
+	<div class="round-box" style="width:320px; background-color:#4C5A65; padding:11px; color:#f0eeee; font-size:16px; line-height: 90%; margin-bottom:14px;">
 	
-	 <strong style="color:#242424;">Bok:</strong> Metode- og oppgaveskriving for studenter<br /><br /> <strong style="color:#242424;">Forfatter:</strong> Olav Dalland <br /><br />
+	 <h3 style="color:white; font-size:16px; margin-bottom:-9px;"><?php echo lang('me-booktitle'); ?></h3><br /> <text style="font-size:14px; color:#d6d6d6">Metode- og oppgaveskriving for studenter</text><br />
+	 <br /> <h3 style="color:white; font-size:16px; margin-bottom:-9px;"><?php echo lang('me-author'); ?></h3><br /><text style="font-size:14px; color:#d6d6d6;"> Olav Dalland</text><br /><br />
 	  
-	 <strong style="color:#242424;">Status:</strong> Ikke solgt<br />
+	 <h3 style="color:white; font-size:16px; margin-bottom:-9px;"><?php echo lang('me-status'); ?></h3><br /><text style="font-size:14px; color:#d6d6d6;"> Not sold</text><br />
 	 
 	</div>
 	

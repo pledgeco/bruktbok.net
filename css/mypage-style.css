@@ -18,7 +18,7 @@ a {
 -------------------------------------------------------------------*/
 
 #header { /* Her definerer vi hvor menyen skal være */
-	font-size: 18px;
+	font-size: 16px;
 	height: 100px;
 	background: #80af11;
 	line-height: 100px;
@@ -31,7 +31,7 @@ a {
 #header a#logo { /*definerer at logo skal være til venstre og ha størrelse 28 i font*/
 	display: block;
 	float: left;
-	font-size: 28px;
+	font-size: 26px;
 }
 
 #header ul#nav { /*definerer at menyen skal flyte til høyre*/
@@ -45,30 +45,219 @@ a {
 }
 
 .wrapper {  /*setter at bredden skal være 950px uten margin*/
-width: 950px; margin: 0 auto; 
+margin-left: auto;
+  margin-right: auto;
+  width: 950px;
 
 }
 
-.wrapper2 { /*setter at wrapper2 skal ha bredd på 700pixler og flyte til venstre*/
-width: 559px; margin: 0 auto; float: left;
 
+p.text{ /*definerer farge, linje høyde og font størrelse på p text*/
+	color: white;
+	line-height: 100px;
+	font-size: 16px;
+	}
+	
+.round-box {
+color: #000;
+background-color: #484848;
+padding: 25px;
+border-radius:5px ;
+margin-top:-5px;
+color:white;
+}	
+
+.overview-books{
+float:right;
+color: #000;
+background-color: #FFF;
+padding: 25px;
+border-radius:5px ;
+margin-top:-5px;
+color:white;
+width:30%;
 }
 
-#minside{ /*setter at tekst headeren skal være 20 pixler fra toppen, størrelse font 20px, og at det skal være 10 pixler ned til neste element*/
-	margin-top: 20px;
-	margin-bottom: 10px;
-	font-size: 20px;
+input[type="text"], .focus input[type="email"], .focus textarea, .focus input[type="password"] {
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 20px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 35%;
+    font-size: 12px;
+    line-height:15px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;    
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+.focus textarea{
+    padding: 5px 3px 3px 5px;
+}
+
+input[type="password"] {
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 20px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 35%;
+    font-size: 12px;
+    line-height:15px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;    
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+input[type="submit"] {
+    border: 1px solid #80af11;
+    color: #FFF;
+    height: 35px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 15%;
+    font-size: 12px;
+    line-height:15px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;    
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	margin-top:11px;
+	background-color:#80af11;
+	margin-bottom:-2px;
+}
+
+input[type="submit"]:hover {
+    border: 1px solid #9ed814;
+    color: #FFF;
+    height: 35px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 15%;
+    font-size: 12px;
+    line-height:15px;
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;    
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	margin-top:11px;
+	background-color:#9ed814;
+	margin-bottom:-2px;
+}
+
+#footer { /*definerer hvor footer skal stå*/
+	font-size: 12px;
+  position:absolute;
+  left:0;
+  right:0;
+  text-align: center;
+	color: #FFF;
+
+
+
+	
+	
+	
+	}
+	
+#footer a { /*definerer farge på lenker i footer*/
+	color: #FFF;
 	}
 
-#right-mybooks{ /*definerer at oversikten over bøker skal være høyre*/
-background-image: url("../images/right-my.png");
-float: right;
-width: 310px;
-height: 405px;
-
-}
-
-#button-search{ /*Knapp for søking med størrelse for bilde og at den skal flyte til høyre*/
+	.reveal-modal-bg { 
+		position: fixed; 
+		height: 100%;
+		width: 100%;
+		background: #000;
+		background: rgba(0,0,0,.8);
+		z-index: 100;
+		display: none;
+		top: 0;
+		left: 0; 
+		
+		}
+	
+	.reveal-modal {
+		visibility: hidden;
+		top: 100px; 
+		left: 50%;
+		margin-left: -200px;
+		width: 350px;
+		background: #eee url(modal-gloss.png) no-repeat -200px -80px;
+		position: absolute;
+		z-index: 101;
+		padding: 30px 40px 34px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		-moz-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		-box-shadow: 0 0 10px rgba(0,0,0,.4);
+		color: #000;
+		}
+		
+	.reveal-modal.small 		{ width: 200px; margin-left: -140px;}
+	.reveal-modal.medium 		{ width: 400px; margin-left: -240px;}
+	.reveal-modal.large 		{ width: 600px; margin-left: -340px;}
+	.reveal-modal.xlarge 		{ width: 800px; margin-left: -440px;}
+	
+	.reveal-modal .close-reveal-modal {
+		font-size: 22px;
+		line-height: .5;
+		position: absolute;
+		top: 8px;
+		right: 11px;
+		color: #aaa;
+		text-shadow: 0 -1px 1px rbga(0,0,0,.6);
+		font-weight: bold;
+		cursor: pointer;
+		} 
+		
+		.error-alert {
+		padding: 8px 35px 8px 14px;
+		margin-bottom: 18px;
+		color: #c09853;
+		text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+		border: 1px solid #fbeed5;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+		color: #b94a48;
+		background-color: #f2dede;
+		border-color: #eed3d7;
+		width:23%;
+		
+		}
+		
+		.content-right {
+		float:right; 
+		margin-top:20px;
+		margin-right:30px;
+		}
+		
+		#button-search{ /*Knapp for søking med størrelse for bilde og at den skal flyte til høyre*/
 background-image: url("../images/button-search.png");
 width: 244px;
 height: 76px;
@@ -92,3 +281,4 @@ float:left;
 background-image: url("../images/button-sell_hover.png");
 }
 
+	

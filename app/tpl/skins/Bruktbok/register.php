@@ -1,5 +1,5 @@
 <?php
-include_once 'languages/no.php';
+include_once 'languages/en.php';
 ?>
 <!DOCTYPE html>
 <html>
@@ -59,17 +59,13 @@ include_once 'languages/no.php';
 						<div id="error_password" class="errors error-bottom"></div>
 						</div>
 					
-					<h2><img src="{url}/app/tpl/skins/Bruktbok/captcha/image.php" alt="" /></h2>
-						<div class="input-area">
-						<input type="text" class="text" autocomplete="off" name="captcha" style="width: 27%;" placeholder="<?php echo lang('code'); ?>"/>
-						<div id="error_captcha" class="errors error-bottom"></div>
-						</div>
+					
 					
 					
 
 						<div class="input-area" style="float:right; margin-right:250px;">
 						</div>
-						<input type="submit" name="register" class="loginsubmit submit-button button-link button-content" style="height:40px; margin-top:1px; width:16%;" value="<?php echo lang('confirm-register'); ?>"/>
+						<input type="submit" name="register" class="loginsubmit submit-button button-link button-content" style="height:40px; margin-top:1px; width:16%; margin-bottom:75px;" value="<?php echo lang('confirm-register'); ?>"/>
 						
 						
 						
