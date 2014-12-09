@@ -1,8 +1,7 @@
 <?php
 if(!defined('IN_INDEX')) { die('Sorry, you cannot access this file.'); }
-#Please fill this all out.
 
-#NOTE: To set up TheHabbos.ORG's API go to wwwroot/mysite/thehabbos_api for IIS, OR, htdocs/thehabbos_api for XAMPP and others.
+#Please fill this all out.
 
 /*
 *
@@ -24,7 +23,7 @@ $_CONFIG['mysql']['port'] = '3306'; //MySQL's port
 
 /*
 *
-*	Hotel management  - All URLs do not end with an "/"
+*	Website management  - All URLs do not end with an "/"
 *
 */
 
@@ -36,9 +35,9 @@ $_CONFIG['bruktbok']['name'] = 'Bruktbok'; // website name
 
 $_CONFIG['bruktbok']['desc'] = ''; //
 
-$_CONFIG['bruktbok']['email'] = 'help@myhotel.net'; //Where the help queries from users are emailed to.@Priv skin
+$_CONFIG['bruktbok']['email'] = 'help@myhotel.net'; //Where the help queries from users are emailed to.
 
-$_CONFIG['bruktbok']['in_maint'] = False; //False if hotel is NOT in maintenance. True if hotel IS in maintenance
+$_CONFIG['bruktbok']['in_maint'] = False; //maintenance status (false or true)
 
 
 
@@ -48,11 +47,7 @@ $_CONFIG['bruktbok']['in_maint'] = False; //False if hotel is NOT in maintenance
 *
 */
 
-#RevCMS has 2 default styles, 'Mango' by dannyy94 and 'Priv' by joopie - Others styles are to come, such as RastaLulz's ProCMS style and Nominal's PhoenixCMS 4.0 style.
-
 $_CONFIG['template']['style'] = 'Bruktbok'; 
-
-/*
 
 
 ?>
