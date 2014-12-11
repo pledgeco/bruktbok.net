@@ -1,3 +1,34 @@
+
+VERSION: 1.0.1
+NEW IN THIS VERSION:
+
+---------------------
+
+PROJECT TITLE: bruktbok.net
+
+PURPOSE OF PROJECT:
+    bruktbok.net is a website made for students at UiA (Universitetet i Agder). The purpose of this project is to help           students sell their used educational books, and to give students an easy to use way of buying used books. A user of the      site will put his/her books up for auction and other users will be able to bid on it. 
+
+VERSION or DATE:  ****
+
+HOW TO START THIS PROJECT:
+
+AUTHORS: 
+    Vegard -pledge10@live.com  
+    Benedikthe -benedikthegsandoy@gmail.com 
+    Frank -youknow_lefranc@hotmail.com
+
+LICENSE:
+
+USER INSTRUCTIONS:
+
+KNOWN ISSUES:
+
+
+
+
+
+
 bruktbok.net
 ============
 
@@ -7,7 +38,7 @@ The site is a platform for selling and buying used educational books.
 We have choosen to use apache og ubuntu server as host for this site and MySQL as our database engine.
 
 participants in this project:
-Vegard - pledge10@live.com / Benedikthe / Frank - youknow_lefranc@hotmail.com
+Vegard - 
 
 What is MAME?
 
