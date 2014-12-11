@@ -16,14 +16,12 @@ CREATE TABLE IF NOT EXISTS `users` (
   PRIMARY KEY (`id`),
   KEY `ip_last` (`ip_last`),
   KEY `username` (`username`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=275136 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=275137 ;
 
 CREATE TABLE IF NOT EXISTS `user_books` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `user_id` int(10) unsigned NOT NULL,
-  `book` varchar(50) NOT NULL,
-  `author` varchar(255) NOT NULL DEFAULT 'Ingen forfatter',
-  `ISBN` varchar(255) NOT NULL DEFAULT 'Unknown',
+  `tag` varchar(50) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `user_id` (`user_id`) USING BTREE
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=467732 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=21 ;
