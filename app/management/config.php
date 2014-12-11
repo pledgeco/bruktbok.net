@@ -13,11 +13,11 @@ $_CONFIG['mysql']['connection_type'] = 'pconnect'; //Type of connection: It must
 
 $_CONFIG['mysql']['hostname'] = 'localhost'; //MySQL host
 
-$_CONFIG['mysql']['username'] = 'root'; //MySQL username
+$_CONFIG['mysql']['username'] = 'yourmysqluser'; //MySQL username
 
-$_CONFIG['mysql']['password'] = 'Kld8nejduHdje33nY7dJJ0'; //MySQL password
+$_CONFIG['mysql']['password'] = 'typeinpassword'; //MySQL password
 
-$_CONFIG['mysql']['database'] = 'bruktbok'; //MySQL database
+$_CONFIG['mysql']['database'] = 'yourdatabase'; //MySQL database
 
 $_CONFIG['mysql']['port'] = '3306'; //MySQL's port
 
