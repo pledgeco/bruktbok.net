@@ -1,44 +1,9 @@
-<IfModule mod_rewrite.c>
 RewriteEngine On
 
-#REWRITE RULES
-#---------------------
+RewriteRule ^(|/)$ index.php?url=$1
+RewriteRule ^([a-zA-Z0-9_-]+)(|/)$ index.php?url=$1
+RewriteEngine on
+RewriteRule ^(.*)\.htm$ $1.php [NC]
 
-#RULE IMPORTED RULE 1 
-
-RewriteRule ^(|/)$ index.php?url=$1 []
-
-#RULE IMPORTED RULE 2 
-
-RewriteRule ^([a-zA-Z0-9_-]+)(|/)$ index.php?url=$1 []
-
-#RULE IMPORTED RULE 3 
-
-RewriteRule ^(.*)\.htm$ $1.php []
-
-#RULE IMPORTED RULE 4 
-
-RewriteRule ^(|/)$ dash.php?page=$1 []
-
-#RULE IMPORTED RULE 5 
-
-RewriteRule ^([a-zA-Z0-9_-]+)(|/)$ dash.php?url=$1 []
-
-#RULE IMPORTED RULE 6 
-
-RewriteRule ^habbo-imaging/badge/([^/]+) /habbo-imaging/badge.php?badge=$1 []
-
-#RULE IMPORTED RULE 7 
-
-RewriteRule ^stream-imager/([^/]+).gif /stream-imager/head.php?figure=$1 []
-
-#RULE IMPORTED RULE 13 
-
-RewriteRule ^profile/([a-zA-Z0-9_-]+)(|/)$ index.php?url=profile&username=$1 []
-
-#RULE IMPORTED RULE 14 
-
-RewriteRule ^group/([a-zA-Z0-9_-]+)(|/)$ index.php?url=group&id=$1 []
-
-</IfModule>
-
+RewriteRule ^(|/)$ dash.php?page=$1
+RewriteRule ^([a-zA-Z0-9_-]+)(|/)$ dash.php?url=$1
