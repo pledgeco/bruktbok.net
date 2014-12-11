@@ -7,9 +7,9 @@
 
 <ul id="nav"><!--meny-->
                 <li><a href="index"><?php echo lang('home'); ?></a></li>
-                <li><a href="register"><?php echo lang('register'); ?></a></li>
+				<li><a href="add"><?php echo lang('sell'); ?></a></li>
+				<li><a href="search"><?php echo lang('buy'); ?></a></li>
                 <li><a href="contact"><?php echo lang('contact'); ?></a></li>
-		<li><a href="#" data-reveal-id="myModal"><?php echo lang('login'); ?></a></li>
 		<li><a href="download"><?php echo lang('download'); ?></a></li>
-		
+		<li><a href="logout"><?php echo lang('logout'); ?></a></li>
 		</ul>

@@ -1,41 +1,16 @@
 <?php include_once 'languages/en.php'; ?>
 
 <style>
-input[type="text"], .focus input[type="email"], .focus textarea, .focus input[type="password"] {
+input[type="textarea"] {
     border: 1px solid #DADADA;
     color: #888;
-    height: 30px;
-    margin-bottom: 16px;
-    margin-right: 6px;
-    margin-top: 2px;
-    outline: 0 none;
+    height: 100px;
+	text-align:left;
+	line-height:100px;
     padding: 3px 3px 3px 5px;
-    width: 55%;
+    width: 70%;
     font-size: 12px;
-    line-height:15px;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;    
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-}
-.focus textarea{
-    padding: 5px 3px 3px 5px;
-}
 
-input[type="password"] {
-    border: 1px solid #DADADA;
-    color: #888;
-    height: 30px;
-    margin-bottom: 16px;
-    margin-right: 6px;
-    margin-top: 2px;
-    outline: 0 none;
-    padding: 3px 3px 3px 5px;
-    width: 55%;
-    font-size: 12px;
-    line-height:15px;
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;    
@@ -163,27 +138,26 @@ input[type="submit"]:hover{
 </style>
 
  <div id="myModal" class="reveal-modal">
-     <div class="login-right-content">
-	 <?php echo lang('newuser'); ?><br />
-	 
-	 <input type="button" onclick="location.href='register';" value="<?php echo lang('login-register'); ?>" style="width:100%; height:50px; font-size:14px;"/><br /><br />
-	 
-	 </div>
-	 <h2><?php echo lang('login-header'); ?></h2>
+    
+	 <h2>Contact the seller</h2>
 	 
 	
     <div class="loginoptions">
 		<form action="index" method="post">
-			<div class="input-area" style="float:left; margin-top:-88px;""><br />
+			<div class="input-area" style="float:left; margin-top:10px;""><br />
 			
-				<input type="text" class="text" name="log_username" placeholder="<?php echo lang('login-username'); ?>" maxlength="100" "/>
-				
-				<input type="password" class="text" name="log_password" placeholder="<?php echo lang('login-password'); ?>" maxlength="100"/>
+			
+				<textarea name="Message" rows="10" cols="40" id="Message" style="resize: none; border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;    
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);"></textarea>
 				
 				
 			</div>
-			<br /><br /><br />
-			<input type="submit" name="login" class="loginsubmit submit-button button-link button-content" value="<?php echo lang('login-submit'); ?>"/>
+			<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+			<input type="submit" onclick="location.href='register';" value="Send"/>
 		</form><br />
 		<?php if(isset($template->form->error)) { echo '<b><div class="error-alert">'.$template->form->error.'</div></b>'; } ?>
 	</div>
