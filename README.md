@@ -32,8 +32,8 @@ See issues on our official github
 
 LICENSE: GPL3
 
-GNU GENERAL PUBLIC LICENSE
-Version 3, 29 June 2007
+    GNU GENERAL PUBLIC LICENSE
+    Version 3, 29 June 2007
 
 Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/>
 Everyone is permitted to copy and distribute verbatim copies
@@ -102,7 +102,7 @@ patents cannot be used to render the program non-free.
 The precise terms and conditions for copying, distribution and
 modification follow.
 
-TERMS AND CONDITIONS
+    TERMS AND CONDITIONS
 
 0. Definitions.
 
