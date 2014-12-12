@@ -397,7 +397,7 @@ add to a covered work, you may (if authorized by the copyright holders of
 that material) supplement the terms of this License with terms:
 
     a) Disclaiming warranty or limiting liability differently from the
-    terms of sections 15 and 16 of this License; or
+        terms of sections 15 and 16 of this License; or
 
     b) Requiring preservation of specified reasonable legal notices or
     author attributions in that material or in the Appropriate Legal
@@ -652,7 +652,7 @@ an absolute waiver of all civil liability in connection with the
 Program, unless a warranty or assumption of liability accompanies a
 copy of the Program in return for a fee.
 
-END OF TERMS AND CONDITIONS
+    END OF TERMS AND CONDITIONS
 
 How to Apply These Terms to Your New Programs
 
