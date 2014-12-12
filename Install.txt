@@ -1,0 +1,14 @@
+======= Installation instructions =======
+1. Install IIS or apache web server
+2. Install MySQL 
+3. Import install_script_sql.sql to your database
+4. Drag or import all your files into your root folder (web server)
+5. Remove web.config or .htaccess from the root folder, depends on which web server you are using.
+6. go to app/management/config.php, follow the instructions there.
+
+Congratulations, your CMS bookhook have been installed!
+
+If you have any problems or questions, go to our wiki: https://github.com/pledgeco/bruktbok.net/wiki
+
+
+ 
