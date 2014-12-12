@@ -14,13 +14,13 @@ VERSION: 1.0.0
 DATE:  11.12.2014 DD/MM/YYYY
 
 
-Requirements:
+	Requirements:
 
-Text editor
+	Text editor
 
-Web server (IIS or Apache)
+	Web server (IIS or Apache)
 
-MySQL Database
+	MySQL Database
     
     
 AUTHORS: 
