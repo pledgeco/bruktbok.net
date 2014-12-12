@@ -28,7 +28,6 @@ Benedikthe - ebenedikthegsandoy@gmail.com
 
 Frank - youknow_lefranc@hotmail.com
 
-===========================
 USER INSTRUCTIONS: 
 Installation instructions can be found in the file install.txt
 
