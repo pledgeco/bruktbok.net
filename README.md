@@ -17,8 +17,11 @@ Web server (IIS or Apache)
 MySQL Database
     
 AUTHORS: 
+
 Vegard - pledge10@live.com  
+
 Benedikthe - ebenedikthegsandoy@gmail.com 
+
 Frank - youknow_lefranc@hotmail.com
 
 USER INSTRUCTIONS: 
