@@ -12,8 +12,11 @@ VERSION: 1.0.0
 DATE:  11.12.2014 DD/MM/YYYY
 
 Requirements:
+
 Text editor
+
 Web server (IIS or Apache)
+
 MySQL Database
     
 AUTHORS: 
