@@ -21,7 +21,6 @@ DATE:  11.12.2014 DD/MM/YYYY
 
 	MySQL Database
     
-    
 AUTHORS: 
 
 Vegard - pledge10@live.com  
@@ -34,13 +33,11 @@ Frank - youknow_lefranc@hotmail.com
 USER INSTRUCTIONS: 
 Installation instructions can be found in the file install.txt
 
-
 KNOWN ISSUES:
 See issues on our official github 
 
-
 LICENSE: GPL3
-
+============================
     GNU GENERAL PUBLIC LICENSE
     Version 3, 29 June 2007
 
