@@ -35,7 +35,7 @@ KNOWN ISSUES:
 See issues on our official github 
 
 LICENSE: GPL3
-============================
+------------------------------
     GNU GENERAL PUBLIC LICENSE
     Version 3, 29 June 2007
 
