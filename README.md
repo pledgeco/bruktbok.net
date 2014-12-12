@@ -32,7 +32,7 @@ USER INSTRUCTIONS:
 Installation instructions can be found in the file install.txt
 
 KNOWN ISSUES:
-See issues on our official github 
+See issues here: https://github.com/pledgeco/bruktbok.net/issues
 
 SUPPORT:
 Go to our wiki: https://github.com/pledgeco/bruktbok.net/wiki
