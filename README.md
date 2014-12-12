@@ -34,6 +34,9 @@ Installation instructions can be found in the file install.txt
 KNOWN ISSUES:
 See issues on our official github 
 
+SUPPORT:
+Go to our wiki: https://github.com/pledgeco/bruktbok.net/wiki
+
 LICENSE: GPL3
 ------------------------------
     GNU GENERAL PUBLIC LICENSE
