@@ -1,4 +1,4 @@
-0.0.0
+1.0.0
 ---------------------
 
 PROJECT TITLE: bruktbok.net
@@ -6,21 +6,24 @@ PROJECT TITLE: bruktbok.net
 PURPOSE OF PROJECT:
     bruktbok.net is a website made for students at UiA (Universitetet i Agder). The purpose of this project is to help           students sell their used educational books, and to give students an easy to use way of buying used books. A user of the      site will put his/her books up for auction and other users will be able to bid on it. 
 
-VERSION: 0.0.0
+VERSION: 1.0.0
 DATE:  11.12.2014 DD/MM/YYYY
 
-HOW TO START THIS PROJECT:
+Requirements:
     Text editor
-    WAMPServer 2.5
+    Web server (IIS or Apache)
+    MySQL Database
     
 AUTHORS: 
-    Vegard -pledge10@live.com  
-    Benedikthe -ebenedikthegsandoy@gmail.com 
-    Frank -youknow_lefranc@hotmail.com
+    Vegard - pledge10@live.com  
+    Benedikthe - ebenedikthegsandoy@gmail.com 
+    Frank - youknow_lefranc@hotmail.com
 
 USER INSTRUCTIONS: 
+Installation instructions can be found in the file install.txt
 
 KNOWN ISSUES:
+See issues on our official github 
 
 LICENSE: GPL3
 
