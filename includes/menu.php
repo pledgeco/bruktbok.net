@@ -10,6 +10,6 @@
                 <li><a href="register"><?php echo lang('register'); ?></a></li>
                 <li><a href="contact"><?php echo lang('contact'); ?></a></li>
 		<li><a href="#" data-reveal-id="myModal"><?php echo lang('login'); ?></a></li>
-		<li><a href="download"><?php echo lang('download'); ?></a></li>
+		<li><a href="https://github.com/pledgeco/bruktbok.net/releases"><?php echo lang('download'); ?></a></li>
 		
 		</ul>
