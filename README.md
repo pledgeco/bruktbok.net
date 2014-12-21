@@ -1,9 +1,12 @@
 [Visit our github website!](http://pledgeco.github.io/bruktbok.net/)
 ---------------------
 
-**PROJECT TITLE: bruktbok.net**
+**PROJECT TITLE:**
+
+bruktbok.net
 
 **PURPOSE OF PROJECT:**
+
 bruktbok.net is a website made for students at UiA (Universitetet i Agder). The purpose of this project is to help students
 sell their used educational books, and to give students an easy to use way of buying used books. A user of the site will put 
 his/her books up for auction and other users will be able to bid on it. 
@@ -15,7 +18,7 @@ VERSION: 1.0.0
 DATE:  11.12.2014 DD/MM/YYYY
 
 
-	**Requirements:**
+	**Requirements**
 
 	Text editor
 
@@ -23,19 +26,24 @@ DATE:  11.12.2014 DD/MM/YYYY
 
 	MySQL Database
     
-AUTHORS: 
+**AUTHORS:**
 
 * Vegard - pledge10@live.com  
 * Benedikthe - ebenedikthegsandoy@gmail.com 
 * Frank - youknow_lefranc@hotmail.com
 
-USER INSTRUCTIONS: 
+**USER INSTRUCTIONS:** 
+
 Installation instructions can be found in the file install.txt
 
-KNOWN ISSUES:
-See issues here: https://github.com/pledgeco/bruktbok.net/issues
+**KNOWN ISSUES:**
 
-SUPPORT:
+**See issues here: **
+
+https://github.com/pledgeco/bruktbok.net/issues
+
+**SUPPORT:**
+
 Go to our wiki: https://github.com/pledgeco/bruktbok.net/wiki
 
 LICENSE: GPL3
