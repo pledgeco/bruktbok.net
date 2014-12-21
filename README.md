@@ -23,7 +23,7 @@ http://www.bruktbok.net
 
 Installation instructions can be found in the file install.txt
 
-=== Requirements ===
+REQUIREMENTS:
 
 	- Text editor
 
