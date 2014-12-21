@@ -5,13 +5,13 @@
 
 Bruktbok.net
 
---- PURPOSE OF PROJECT ---
+=== PURPOSE OF PROJECT ===
 
 bruktbok.net is a website made for students at UiA (Universitetet i Agder). The purpose of this project is to help students
 sell their used educational books, and to give students an easy to use way of buying used books. A user of the site will put 
 his/her books up for auction and other users will be able to bid on it. 
 
---- DEMO VERSION: --- 
+ === DEMO VERSION: ===
 
 http://www.bruktbok.net
 
@@ -27,17 +27,17 @@ DATE:  11.12.2014 DD/MM/YYYY
 
 	MySQL Database
     
---- AUTHORS ---
+=== AUTHORS ===
 
 * Vegard - pledge10@live.com  
 * Benedikthe - ebenedikthegsandoy@gmail.com 
 * Frank - youknow_lefranc@hotmail.com
 
---- USER INSTRUCTIONS ---
+=== USER INSTRUCTIONS ===
 
 Installation instructions can be found in the file install.txt
 
-KNOWN ISSUES:
+=== KNOWN ISSUES ===
 
 https://github.com/pledgeco/bruktbok.net/issues
 
