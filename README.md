@@ -1,4 +1,4 @@
-1.0.0
+[Visit our github website!](http://pledgeco.github.io/bruktbok.net/)
 ---------------------
 
 PROJECT TITLE: bruktbok.net
@@ -25,11 +25,9 @@ DATE:  11.12.2014 DD/MM/YYYY
     
 AUTHORS: 
 
-Vegard - pledge10@live.com  
-
-Benedikthe - ebenedikthegsandoy@gmail.com 
-
-Frank - youknow_lefranc@hotmail.com
+* Vegard - pledge10@live.com  
+* Benedikthe - ebenedikthegsandoy@gmail.com 
+* Frank - youknow_lefranc@hotmail.com
 
 USER INSTRUCTIONS: 
 Installation instructions can be found in the file install.txt
