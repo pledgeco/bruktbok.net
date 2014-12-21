@@ -19,15 +19,17 @@ DATE:  11.12.2014 DD/MM/YYYY
 
 http://www.bruktbok.net
 
-=== AUTHORS ===
-
-* Vegard - pledge10@live.com  
-* Benedikthe - ebenedikthegsandoy@gmail.com 
-* Frank - youknow_lefranc@hotmail.com
-
 === USER INSTRUCTIONS ===
 
 Installation instructions can be found in the file install.txt
+
+=== Requirements ===
+
+	- Text editor
+
+	- Web server (IIS or Apache)
+
+	- MySQL Database
 
 === KNOWN ISSUES ===
 
@@ -37,13 +39,11 @@ https://github.com/pledgeco/bruktbok.net/issues
 
 Go to our wiki: https://github.com/pledgeco/bruktbok.net/wiki
 
-=== Requirements ===
+=== AUTHORS ===
 
-	- Text editor
-
-	- Web server (IIS or Apache)
-
-	- MySQL Database
+* Vegard - pledge10@live.com  
+* Benedikthe - ebenedikthegsandoy@gmail.com 
+* Frank - youknow_lefranc@hotmail.com
 
 LICENSE: GPL3
 ------------------------------
