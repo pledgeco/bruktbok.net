@@ -14,7 +14,7 @@ DATE:  11.12.2014 DD/MM/YYYY
 
 http://www.bruktbok.net
 
-=== USER INSTRUCTIONS ===
+**USER INSTRUCTIONS**
 
 Installation instructions can be found in the file install.txt
 
