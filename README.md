@@ -39,11 +39,11 @@ Go to our wiki: https://github.com/pledgeco/bruktbok.net/wiki
 
 === Requirements ===
 
-	*Text editor
+	- Text editor
 
-	*Web server (IIS or Apache)
+	- Web server (IIS or Apache)
 
-	*MySQL Database
+	- MySQL Database
 
 LICENSE: GPL3
 ------------------------------
