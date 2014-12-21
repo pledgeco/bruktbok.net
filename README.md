@@ -37,7 +37,7 @@ https://github.com/pledgeco/bruktbok.net/issues
 
 === SUPPORT ===
 
-Go to our wiki: https://github.com/pledgeco/bruktbok.net/wiki
+https://github.com/pledgeco/bruktbok.net/wiki
 
 === AUTHORS ===
 
