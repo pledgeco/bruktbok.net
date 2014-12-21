@@ -25,7 +25,7 @@ http://www.bruktbok.net
 * Benedikthe - ebenedikthegsandoy@gmail.com 
 * Frank - youknow_lefranc@hotmail.com
 
-=== USER INSTRUCTIONS ===
+**Install bruktbok**
 
 Installation instructions can be found in the file install.txt
 
