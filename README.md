@@ -1,6 +1,6 @@
-##Bruktbok.net
+#Bruktbok.net
 
-#[Visit our github website!](http://pledgeco.github.io/bruktbok.net/)
+##[Visit our github website!](http://pledgeco.github.io/bruktbok.net/)
 
 === PURPOSE OF PROJECT ===
 
