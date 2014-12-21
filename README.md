@@ -10,7 +10,7 @@ VERSION: 1.0.0
 
 DATE:  11.12.2014 DD/MM/YYYY
 
- === DEMO VERSION: ===
+Demo version:
 
 http://www.bruktbok.net
 
